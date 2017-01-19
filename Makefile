@@ -125,7 +125,7 @@ CFLAGS += -Wall -Wstrict-prototypes
 CFLAGS += -Wa,-adhlns=$(<:.c=.lst)
 CFLAGS += $(patsubst %,-I%,$(EXTRAINCDIRS))
 CFLAGS += $(CSTANDARD)
-CFLAGS += -gdrawf-2
+CFLAGS += -gdwarf-2
 CFLAGS += -gstrict-dwarf
 
 #---------------- Assembler Options ----------------
